@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Velmeni Automation Reports</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="logos bgnone">
+      <img class="bgnone" src="./frugallogo.png" alt="Frugal Logo" />
+      <img class="bgnone" id="velmenilogo" src="./velmenilogo.png" alt="Velmeni Logo" />
+    </div>
+
+    <div class="head-title bgnone">
+      <h1 class="bgnone">Velmeni-Frugal Testing Automation Report</h1>
+    </div>
+
+    <div id="drp-downs" >
+      <select id="products" class="drpdown bgwhite">
+        <option value="Second Dentist">Second Dentist</option>
+        <option value="Velmeni for Dentist">Velmeni for Dentist</option>
+      </select>
+  
+      <select id="environments" class="drpdown bgwhite">
+        <option value="UAT">UAT</option>
+        <option value="DEV">DEV</option>
+        <option value="PROD">PROD</option>
+      </select>
+    </div>
+    
+
+    <div class="form bgnone">
+      <input type="date" name="dateinput" id="dateinput" />
+      <button id="submitBtn" onclick="submitForm()">OPEN Report</button>
+    </div>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>

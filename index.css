@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap");
+
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: url('./BgImage.jpg');
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.logos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 60px;
+  background: none;
+}
+
+.logos img {
+  width: 300px;
+  height: auto;
+  margin: 0 50px;
+}
+.head-title {
+  margin: 33px 0 5px 0;
+  color: white;
+  
+}
+
+.form {
+  margin: 50px 0 500px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 60px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background: white;
+}
+
+button {
+  width: 30%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  background-color: #2155cd;
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: white;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+#velmenilogo{
+  margin-top:55px;
+}
+.bgnone{
+  background: none;
+}
+#submitBtn{
+  background: white;
+  color:black;
+  cursor: pointer;
+  background: #4784bf;
+  color: white;
+}
+
+#drp-downs{
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+}
+.drpdown{
+  width: 100%;
+  height: 40px;
+  border-radius: 2px;
+  padding-left: 7px;
+}
+
+
+.bgwhite{
+  background: white;
+}
